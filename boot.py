@@ -9,7 +9,7 @@ import time
 
 wlan = WLAN(mode=WLAN.STA)
 pycom.heartbeat(False)
-wlan.connect(ssid='', auth=(WLAN.WPA2, ''))
+wlan.connect(ssid='naam wifi', auth=(WLAN.WPA2, 'wachtwoord'))
 
 # ---- Loop ----
 
