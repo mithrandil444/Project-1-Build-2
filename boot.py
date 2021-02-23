@@ -9,7 +9,7 @@ import time
 
 wlan = WLAN(mode=WLAN.STA)
 pycom.heartbeat(False)
-wlan.connect(ssid='telenet-C9C22', auth=(WLAN.WPA2, 'k0T3bU6R0EyA'))
+wlan.connect(ssid='', auth=(WLAN.WPA2, ''))
 
 # ---- Loop ----
 
