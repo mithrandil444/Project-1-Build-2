@@ -9,14 +9,11 @@ aio_key = "aio_SWaA65ahbUNaL8Qd3D6o28GMq4Uy"
 username = "mithrandil444"
 feed_name = "houthakken"
 
-
-
-
-
-#loraconnect2.setup_lora()
-
-#distance= sonarsensor.send_distance()
-#loraconnect2.send_to_lora(distance)
+#Lora
+loraconnect2.setup_lora()
+distance= sonarsensor.send_distance()
+loraconnect2.send_to_lora(distance)
+#Wifi
 wificonnect.connect()
 
 while True:
